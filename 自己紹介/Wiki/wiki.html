@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Wiki Demo</title>
 </head>
 <body>
-    
+    <h1>Wiki Demo</h1>
+    <p>
+        Hayate Saito<br>
+        Sept.2021<br>
+        PROGRAMING COURCE
+    </p>
+    <hr>
+    <div class="container">
+        <div class="box1">
+            <img class="logo" src="/web/自己紹介/images/ダウンロード.png" alt="">
+        </div>
+        <div class="box2">
+            <h1>齋藤　はやて</h1>
+            <hr>
+            <p>
+                出典：パクリ百科事典：『パクペディア(Pakupedia)』
+            </p>
+            <p>
+                <strong>齋藤　颯</strong>（さいとう　はやて、1992年〈平成4年〉11月8日－）は、日本の一般人。現在無職。<br>
+            </p>
+
+            <div class="flex-container">
+                <div class="flex-child contents">
+                    <h3 class="tc">目次<button onclick="myFunction()">表示/非表示</button></h3>
+                    <div id="myDIV">
+                        <ol>
+                            <li><a href="#i1">略歴</a></li>
+                            <li><a href="#i2">性格</a></li>
+                            <li><a href="#i3">趣味</a></li>
+                            <li><a href="#i5">その他</a></li>
+                            <li><a href="#i4">音楽リンク集</a></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="flex-child bi">
+                    <h4>齋藤　颯<br>さいとう　はやて<br></h4>
+                    <figure>
+                        <img src="/web/html/ex/images/ダウンロード.jfif" alt="">
+                    </figure>
+                    <h4>基本情報</h4>
+                    <div class="b">
+                        <li class="ba"><span>生誕</span> <img src="/web/html/ex/images/38px-Flag_of_Japan.svg.png"
+                                alt="">1992年11月08日 日本 北海道札幌市</li>
+                        <li class="ba"><span>居住</span> 日本、北海道札幌市北区北<span class="address">二十条西二丁目</span></li>
+                        <li class="ba"><span>職業</span> 無職</li>
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="i1">略歴</h2>
+            <hr>
+            札幌で生まれ育つ。幼少期より貧弱でインドア派であった。義務教育時代の得意科目は英語、苦手科目は数学。偶然知り合ったロシア人教授にロシア語を教えてもらい、2019年9月に思い付きでロシアへ留学に向かうもパンデミックの煽りで帰国。ちなみに札幌以外で住んだことがあるのはロシアのみである（<a
+                href="https://ja.wikipedia.org/wiki/%E3%83%A2%E3%82%B9%E3%82%AF%E3%83%AF">モスクワ</a>、<a
+                href="https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%A9%E3%82%B9%E3%83%8E%E3%83%80%E3%83%BC%E3%83%AB">クラスノダール</a>）2020年2月、友人の結婚式に出席する為に<a
+                href="https://ja.wikipedia.org/wiki/%E3%83%8D%E3%83%91%E3%83%BC%E3%83%AB">ネパール</a><a
+                href="https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%88%E3%83%9E%E3%83%B3%E3%82%BA">（カトマンズ）</a>へ行くが、食あたりを起こし殆ど観光できなかった。
+            </p>
+            <h2 id="i2">性格</h2>
+            <hr>
+            <p>根は陰キャ。最近はよく残念陽キャと言われる。自然も好きだがどちらかといえば引きこもり気質で、休日が続くときは食料を買い込んで籠城することもしばしば。お喋り好きだが自分から話しかけるのは苦手である。
+            </p>
+            <h2 id="i3">趣味</h2>
+
+            <hr>
+            <p>趣味は音楽鑑賞、筋トレ、読書、たまにお絵描きである。</p>
+            <h2 id="i5">その他</h2>
+            <hr>
+            <p>ベースをちょっと弾ける。ピアノかチェンバロを始めたいとずっと思っているが始められていない。筋トレはコロナ前までは割と本気で取り組んでいて<a
+                    href="https://ja.wikipedia.org/wiki/%E3%83%99%E3%83%B3%E3%83%81%E3%83%97%E3%83%AC%E3%82%B9">ベンチプレス</a>130kg,<a
+                    href="https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%83%E3%83%89%E3%83%AA%E3%83%95%E3%83%88">デッドリフト</a>220kg,<a
+                    href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AF%E3%83%AF%E3%83%83%E3%83%88">スクワット</a>180kgという中級者レベルまでいったが、今はモチベーションが下がり見ての通り普通体型である。また本気で取り組みたい。
+                <a href="https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%BC%E3%83%8A#%E8%A8%80%E8%AA%9E">ガーナ</a>から <a
+                    href="https://ja.wikipedia.org/wiki/%E3%83%8D%E3%83%91%E3%83%BC%E3%83%AB">ネパール</a>まで色んな国出身の友人がいる。研究者が多く、色々と自分の知らない世界を知れるので話していて楽しい。
+            </p>
+            <h2 id="i4">音楽リンク集</h2>
+            <hr>
+            <script type="text/javascript" src="js/sample.js">
+            </script>
+        </div>
+    </div>
 </body>
 </html>
